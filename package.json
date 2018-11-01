@@ -1,0 +1,22 @@
+{
+  "name": "keepintouchbackend",
+  "version": "1.0.0",
+  "description": "keepInTouchBackend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmyaskov100/keepInTouchBackend.git"
+  },
+  "author": "Ruslan Myaskovskiy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rmyaskov100/keepInTouchBackend/issues"
+  },
+  "homepage": "https://github.com/rmyaskov100/keepInTouchBackend#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
