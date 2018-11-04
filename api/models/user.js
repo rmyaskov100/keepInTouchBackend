@@ -1,44 +1,44 @@
-const mongoose = require ('./db');
+const db = required('./db');
 
 const userSchema = mongoose.Schema({
     _id: mongoose.Schema.Types.ObjectId,
-    first_name : {
-        type : String,
-        required : true
+    first_name: {
+        type: String,
+        required: true
     },
-    last_name : {
-        type : String,
-        required : true
+    last_name: {
+        type: String,
+        required: true
     },
-    phone : {
-        type : String,
-        required : true
+    phone: {
+        type: String,
+        required: true
     },
     facebookEntry: {
         type: String,
-        allowNull: true,
+        required: true,
     },
     twitterEntry: {
         type: String,
-        allowNull: true,
+        required: true,
     },
     instagramEntry: {
         type: String,
-        allowNull: true,
+        required: true,
     },
     snapchatEntry: {
         type: String,
-        allowNull: true,
+        required: true,
     },
     linkedinEntry: {
-          type: String,
-          allownull: true,
+        type: String,
+        required: true,
     },
     tumblrEntry: {
-          type: String,
-          allownull: true,
+        type: String,
+        required: true,
     }
-     
+
 });
 
 module.exports = mongoose.model('User', userSchema);
