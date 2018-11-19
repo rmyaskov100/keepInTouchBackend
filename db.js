@@ -2,7 +2,7 @@
 const mongoose = require('mongoose');
 
 //Set up default mongoose connection
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost/keepInTouchdb';
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb:russm:Gorecmountain100$@ds249583.mlab.com:49583/heroku_j4b74cbw';
 mongoose.connect(MONGODB_URI);
 // Get Mongoose to use the global promise library
 mongoose.Promise = global.Promise;

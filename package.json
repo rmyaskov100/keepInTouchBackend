@@ -20,8 +20,11 @@
   "dependencies": {
     "bcrypt": "^3.0.2",
     "express": "^4.16.4",
+    "express-session": "^1.15.6",
     "jsonwebtoken": "^8.3.0",
-    "mongoose": "^5.3.8"
+    "mongoose": "^5.3.8",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
   },
   "devDependencies": {
     "nodemon": "^1.18.5"
