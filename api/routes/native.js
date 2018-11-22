@@ -5,7 +5,7 @@ const passport = require('passport');
 module.exports = function (app) {
   // Load index page 
 
-  //Loads the signup page 
+  //Loads the signup page
   app.get("/signup", function (req, res) {
     res.render("signup");
   });
